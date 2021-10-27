@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #E1E1E6;
+}
+
+body{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+
+main{
+  display: flex;
+  justify-content: center;
+  width: 375px;
+  background: url(imgs/Mobile.png);
+  background-repeat: no-repeat;
+}
+
+.container{
+  max-width: 250px;
+  height: 100vh;
+  padding-top: 184px;
+}
+
+.avatar{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  
+}
+
+.avatar span{
+  position: absolute;
+  top: -18px;
+  left: 43px;
+  z-index: 1;
+}
+
+.userFoto{
+  width: 160px;
+  height: 184px;
+  object-fit: cover;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+.name{
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 24px;
+  margin-bottom: 4px;
+}
+
+.githubNik{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.githubNik img{
+  margin-right: 10px;
+}
+
+.githubNik a{
+  text-decoration: none;
+  font-weight: 300;
+}
+
+p{
+  font-weight: 400;
+  margin-top: 32px;
+  font-size: 14px;
+  text-align: center;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+  padding: 0 40px;
+}
+
+li{
+  list-style: none;
+
+}
