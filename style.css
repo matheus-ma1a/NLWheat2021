@@ -9,7 +9,6 @@
 }
 
 body{
-  background-color: black;
   display: flex;
   justify-content: center;
 }
@@ -21,6 +20,8 @@ main{
   width: 375px;
   background: url(imgs/Mobile.png);
   background-repeat: no-repeat;
+  box-shadow: 0px 29px 12px 0px rgb(66 68 90 / 54%);
+
 }
 
 .container{
