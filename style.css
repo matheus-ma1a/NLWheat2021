@@ -8,26 +8,27 @@
   color: #E1E1E6;
 }
 
-body{
-  display: flex;
-  justify-content: center;
-}
 
 
 main{
+  
+  background: url(imgs/bg.svg) no-repeat center / cover ;
   display: flex;
   justify-content: center;
-  width: 375px;
-  background: url(imgs/Mobile.png);
-  background-repeat: no-repeat;
-  box-shadow: 0px 29px 12px 0px rgb(66 68 90 / 54%);
-
+  align-items: center ;
+  width: 100vw;
+  height: 100%;
+  
 }
 
 .container{
   max-width: 250px;
+  padding-top: 20px;
   height: 100vh;
-  padding-top: 184px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 .avatar{
@@ -58,17 +59,17 @@ main{
   margin-bottom: 4px;
 }
 
-.githubNik{
+.github{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.githubNik img{
+.github img{
   margin-right: 10px;
 }
 
-.githubNik a{
+.github a{
   text-decoration: none;
   font-weight: 300;
 }
